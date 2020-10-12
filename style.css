@@ -929,3 +929,44 @@ h1 {
 .titre-section-bloc {
     font-family: 'Rubik', sans-serif;
 }
+
+/* Media section exp */
+@media screen and (max-width: 1300px) {
+    .travail-exp {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .barre-verticale {
+        height: 1200px;
+    }
+    .bloc {
+        height: 250px;
+        margin-bottom: 37.5px;
+    }
+    .barre-verticale {
+        margin-left: 60px;
+    }
+    .flex-cont-bloc-exp {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .txt-section {
+        font-size: 16px;
+    }
+    .bloc {
+        height: 400px;
+    }
+    .barre-verticale {
+        height: 1800px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .txt-section {
+        font-size: 15px;
+    }
+}
