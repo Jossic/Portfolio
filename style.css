@@ -682,3 +682,80 @@ h1 {
     }
     
 }
+
+
+/* Section Compétences */
+
+.section-range {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+    border-bottom: 1px dashed #333;
+    background: #485563;
+    background-image: linear-gradient(to right, #29323c, #485563);
+    color: #f1f1f1;
+    position: relative;
+    z-index: -1;
+}
+
+.range-cont {
+    position: relative;
+}
+
+.titre-exp {
+    font-size: 40px;
+    text-align: center;
+    margin: 80px 0 90px 0;
+    padding-left: 300px;
+}
+
+.grille-skill {
+    display: grid;
+    grid-template: repeat(4,80px) / repeat(2, 500px);
+    gap: 50px;
+    padding-left: 300px;
+}
+
+.barre-skill {
+    height: 15px;
+    background: rgb(126, 48, 93);
+    border-radius: 5px;
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+}
+
+.barre-grises {
+     position: absolute;
+     z-index: -1;
+     left: 0;
+     bottom: 0;
+     width: 500px;
+     height: 15px;
+     background: rgb(129, 129, 129);
+     border-radius: 5px;
+}
+
+.b5 {
+    width: 50%;
+}
+.b6 {
+    width: 60%;
+}
+.b7 {
+    width: 70%;
+}
+.b8 {
+    width: 80%;
+}
+.b9 {
+    width: 90%;
+}
+
+.label-skill {
+    font-size: 24px;
+}
