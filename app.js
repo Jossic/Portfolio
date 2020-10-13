@@ -42,3 +42,17 @@ typewriter
     .pauseFor(400)
     .typeString(`<span style="color: #ff8300">Full-Stack JS (MERN Stack)</span> !`)
     .start()
+
+// Animations input
+
+const inputFields = document.querySelectorAll('input');
+
+for (let i = 0; i < inputFields.length; i++) {
+    let field = inputFields[i];
+
+    field.addEventListener('input', (e) => {
+        e.target.value !== '' ?
+            e.target.parentNode.classList.add('animation') :
+            e.target.parentNode.classList.remove('animation')
+    })
+}
